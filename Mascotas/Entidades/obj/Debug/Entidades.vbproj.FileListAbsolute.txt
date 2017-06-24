@@ -1,0 +1,9 @@
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\bin\Debug\Entidades.dll
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\bin\Debug\Entidades.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\bin\Debug\Entidades.xml
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\obj\Debug\Entidades.Resources.resources
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\obj\Debug\Entidades.dll
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\obj\Debug\Entidades.xml
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Mascotas\Entidades\obj\Debug\Entidades.pdb
