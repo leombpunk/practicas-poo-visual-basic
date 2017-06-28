@@ -3,15 +3,15 @@
     Private _memoria As Queue(Of String)
     Private _nombre As String
     Private _texto As String
-    Public Sub New()
+    Sub New()
         _fechaNacimiento = Nothing
         _memoria = New Queue(Of String)
         _nombre = ""
         _texto = ""
     End Sub
-    Public ReadOnly Property Edad(fecha_actual As Date, fecha As Date) As Short
+    Public ReadOnly Property Edad() As Short
         Get
-            Return CalcularEdad(fecha, fecha_actual)
+            Return CalcularEdad(_fechaNacimiento)
         End Get
     End Property
     Public Property FechaNacimiento() As Date
@@ -30,8 +30,8 @@
             _nombre = value
         End Set
     End Property
-    Private Function CalcularEdad(fecha1 As Date, fecha2 As Date) As Int32
-        Return DateDiff(DateInterval.Year, fecha1, fecha2)
+    Private Function CalcularEdad(fechanaci As Date) As Int32
+        Return DateDiff(DateInterval.Year, fechanaci, Today)
     End Function
     Public Overrides Function ToString() As String
         Return _nombre.ToString

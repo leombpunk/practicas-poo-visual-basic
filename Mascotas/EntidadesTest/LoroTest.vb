@@ -15,7 +15,7 @@ Module LoroTest
         Console.WriteLine(oLorito.Hablar)
         Console.WriteLine(oLorito.Hablar)
         Console.WriteLine("Nombre: {0}", oLorito.ToString)
-        Console.WriteLine("Edad: {0}", oLorito.Edad(Date.Today, oLorito.FechaNacimiento))
+        Console.WriteLine("Edad: {0}", oLorito.Edad)
         Console.ReadKey()
     End Sub
 
