@@ -1,6 +1,5 @@
 ﻿Imports Entidades
 Module LoroTest
-
     Sub Main()
         Dim oLorito As New Loro
         oLorito.Nombre = "John"
@@ -18,5 +17,4 @@ Module LoroTest
         Console.WriteLine("Edad: {0}", oLorito.Edad)
         Console.ReadKey()
     End Sub
-
 End Module

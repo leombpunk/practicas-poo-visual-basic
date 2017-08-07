@@ -36,7 +36,7 @@
     Public Overrides Function ToString() As String
         Return _nombre.ToString
     End Function
-    Public Sub Escuchar(value As String)
+    Public Overridable Sub Escuchar(value As String)
         _memoria.Enqueue(value)
     End Sub
     Public Function Hablar() As String
