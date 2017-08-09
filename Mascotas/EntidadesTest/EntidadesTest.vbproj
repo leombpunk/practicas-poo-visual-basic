@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{14A33FFE-B126-491A-9AF0-0117F692B30B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>EntidadesTest.JaulaTest</StartupObject>
+    <StartupObject>EntidadesTest.LoroTest</StartupObject>
     <RootNamespace>EntidadesTest</RootNamespace>
     <AssemblyName>EntidadesTest</AssemblyName>
     <FileAlignment>512</FileAlignment>

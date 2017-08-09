@@ -31,7 +31,11 @@
         End Set
     End Property
     Private Function CalcularEdad(fechanaci As Date) As Int32
-        Return DateDiff(DateInterval.Year, fechanaci, Today)
+        If fechanaci.Month < Today.Month Then
+            Return DateDiff(DateInterval.Year, fechanaci, Today)
+        Else
+            Return DateDiff(DateInterval.Year, fechanaci, Today) - 1
+        End If
     End Function
     Public Overrides Function ToString() As String
         Return _nombre.ToString
@@ -40,11 +44,9 @@
         _memoria.Enqueue(value)
     End Sub
     Public Function Hablar() As String
-        For Each elemento In _memoria
-            _texto += elemento + " "
-            _memoria.Dequeue()
-            Return _texto
-        Next
+        If _memoria.Count > 0 Then
+            _texto += _memoria.Dequeue() + " "
+        End If
         Return _texto
     End Function
 End Class

@@ -13,7 +13,8 @@ Module LoroTest
         Console.WriteLine(oLorito.Hablar)
         Console.WriteLine(oLorito.Hablar)
         Console.WriteLine(oLorito.Hablar)
-        Console.WriteLine("Nombre: {0}", oLorito.ToString)
+        Console.WriteLine("Nombre(ToString): {0}", oLorito.ToString)
+        Console.WriteLine("Nombre: {0}", oLorito.Nombre)
         Console.WriteLine("Edad: {0}", oLorito.Edad)
         Console.ReadKey()
     End Sub
