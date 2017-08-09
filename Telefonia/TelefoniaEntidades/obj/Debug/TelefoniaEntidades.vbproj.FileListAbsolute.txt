@@ -1,0 +1,9 @@
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\bin\Debug\TelefoniaEntidades.dll
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\bin\Debug\TelefoniaEntidades.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\bin\Debug\TelefoniaEntidades.xml
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.vbprojResolveAssemblyReference.cache
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.Resources.resources
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.vbproj.GenerateResource.Cache
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.dll
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.xml
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.pdb
