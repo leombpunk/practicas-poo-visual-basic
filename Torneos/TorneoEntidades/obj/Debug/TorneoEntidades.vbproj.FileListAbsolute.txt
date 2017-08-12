@@ -1,0 +1,9 @@
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\bin\Debug\TorneoEntidades.dll
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\bin\Debug\TorneoEntidades.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\bin\Debug\TorneoEntidades.xml
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.vbprojResolveAssemblyReference.cache
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.Resources.resources
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.vbproj.GenerateResource.Cache
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.dll
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.xml
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.pdb
