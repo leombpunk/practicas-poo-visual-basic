@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AD3124E9-02F9-4C41-BA5F-86887FEC4A8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>TelefoniaTest.EquipoTest</StartupObject>
+    <StartupObject>TelefoniaTest.EmpresaTest</StartupObject>
     <RootNamespace>TelefoniaTest</RootNamespace>
     <AssemblyName>TelefoniaTest</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,6 +68,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteTest.vb" />
+    <Compile Include="EmpresaTest.vb" />
     <Compile Include="EquipoTest.vb" />
     <Compile Include="LineaTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -85,6 +87,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PersonaTest.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

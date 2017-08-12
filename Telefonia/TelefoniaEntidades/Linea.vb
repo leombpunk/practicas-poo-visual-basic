@@ -17,7 +17,9 @@
             Return _codigoArea
         End Get
         Set(value As UShort)
-            _codigoArea = value
+            If ValidoRango(100, 9999, value) Then
+                _codigoArea = value
+            End If
         End Set
     End Property
     Public Property Numero As UInteger
@@ -25,7 +27,9 @@
             Return _numero
         End Get
         Set(value As UInteger)
-            _numero = value
+            If ValidoRango(100000, 9999999, value) Then
+                _numero = value
+            End If
         End Set
     End Property
     Public ReadOnly Property Estado As String
@@ -39,4 +43,7 @@
     Public Sub reactivar()
         _estado = "activa"
     End Sub
+    Private Function ValidoRango(rango1 As Int32, rango2 As Int32, valordecomparacion As Int32) As Boolean
+        Return If(valordecomparacion > rango1 And valordecomparacion < rango2, True, False)
+    End Function
 End Class

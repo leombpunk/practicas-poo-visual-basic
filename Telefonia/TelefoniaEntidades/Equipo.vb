@@ -50,11 +50,9 @@
             Return _fechaVenta
         End Get
     End Property
-    Public WriteOnly Property Venta As Date
-        Set(value As Date)
-            _fechaVenta = value
-        End Set
-    End Property
+    Public Sub Vender(fecha As Date)
+        _fechaVenta = fecha
+    End Sub
     Private Function ValidoVacio(value As String) As String
         Return Not (value Is Nothing)
     End Function
