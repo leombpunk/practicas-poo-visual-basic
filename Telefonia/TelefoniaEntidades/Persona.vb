@@ -42,6 +42,6 @@
         End Set
     End Property
     Private Function ValidoLongiString(maximocaracteres As Int32, elestring As String) As Boolean
-        Return If(elestring.Length < maximocaracteres, True, False)
+        Return If(elestring.Length <= maximocaracteres, True, False)
     End Function
 End Class

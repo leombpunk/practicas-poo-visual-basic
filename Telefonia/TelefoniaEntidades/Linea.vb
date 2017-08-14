@@ -44,6 +44,6 @@
         _estado = "activa"
     End Sub
     Private Function ValidoRango(rango1 As Int32, rango2 As Int32, valordecomparacion As Int32) As Boolean
-        Return If(valordecomparacion > rango1 And valordecomparacion < rango2, True, False)
+        Return If(valordecomparacion >= rango1 And valordecomparacion <= rango2, True, False)
     End Function
 End Class

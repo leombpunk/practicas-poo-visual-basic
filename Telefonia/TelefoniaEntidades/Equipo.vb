@@ -57,6 +57,6 @@
         Return Not (value Is Nothing)
     End Function
     Private Function ValidoLonguiString(maximo As Int32, elstring As String) As Boolean
-        Return If(elstring.Length < maximo, True, False)
+        Return If(elstring.Length <= maximo, True, False)
     End Function
 End Class
