@@ -1,4 +1,5 @@
 ﻿Public Class Persona
+    'no hice modificaciones en el test (PersonaTest), mala mia
     Private _fechaNacimiento As Date
     Private _nombre As String
     Sub New()
@@ -15,12 +16,9 @@
             Return _fechaNacimiento
         End Get
         Set(value As Date)
-            _fechaNacimiento = value
-            'If CalcularEdad() >= 16 Then
-            '    _fechaNacimiento = value
-            'Else
-            '    _fechaNacimiento = Nothing
-            'End If
+            If CalcularEdad(value) >= 16 Then
+                _fechaNacimiento = value
+            End If
         End Set
     End Property
     Public Property Nombre As String
@@ -39,6 +37,13 @@
         End Get
     End Property
     Private Function CalcularEdad() As UShort
+        'If FechaNacimiento.Month < Today.Month Or (FechaNacimiento.Month = Today.Month And FechaNacimiento.Day < Today.Day) Then
+        '    Return DateDiff(DateInterval.Year, FechaNacimiento, Today) - 1
+        'End If
+        'Return DateDiff(DateInterval.Year, FechaNacimiento, Today)
+        Return CalcularEdad(FechaNacimiento)
+    End Function
+    Private Function CalcularEdad(fecha As Date) As UShort
         If FechaNacimiento.Month < Today.Month Or (FechaNacimiento.Month = Today.Month And FechaNacimiento.Day < Today.Day) Then
             Return DateDiff(DateInterval.Year, FechaNacimiento, Today) - 1
         End If

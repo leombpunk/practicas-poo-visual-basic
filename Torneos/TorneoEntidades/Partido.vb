@@ -1,4 +1,5 @@
 ﻿Public Class Partido
+    'alternatica a contar los goles, usar el metodo count de la coleccion
     Private _fecha As Date
     Private _golesLocal As UShort
     Private _golesVisitante As UShort
