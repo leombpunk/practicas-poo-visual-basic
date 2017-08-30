@@ -4,8 +4,10 @@ Module EmpresaTest
         Dim empresota As New Empresa
         empresota.RazonSocial = "Killswitch Engage"
         empresota.Cuit = "456889"
+        empresota.Id = 987654
         Console.WriteLine("Razon Social: {0}", empresota.RazonSocial)
         Console.WriteLine("Cuit: {0}", empresota.Cuit)
+        Console.WriteLine("Id.: {0}", empresota.Id)
 
         Dim empresita As New Empresa("80 de estring es mucho pruebo con el cuit", "12345678910111213")
         Console.WriteLine("Razon Social: {0}", empresita.RazonSocial)

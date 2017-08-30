@@ -10,9 +10,11 @@ Module PersonaTest
         Console.WriteLine("Documento: {0}", persona1.Documento)
 
         Dim persona2 As New Persona("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz", "mi apellido tiene muchas zetas", 123456789)
+        persona2.Id = 12345
         Console.WriteLine("Apellido: {0}", persona2.Apellido)
         Console.WriteLine("Nombre: {0}", persona2.Nombre)
         Console.WriteLine("Documento: {0}", persona2.Documento)
+        Console.WriteLine("Id.: {0}", persona2.Id)
         Console.ReadKey()
     End Sub
 End Module

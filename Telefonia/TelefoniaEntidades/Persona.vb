@@ -1,8 +1,10 @@
 ﻿Public Class Persona
+    Inherits Cliente
     Private _apellido As String
     Private _nombre As String
     Private _documento As UInt32
     Sub New()
+        MyBase.New()
         _apellido = ""
         _nombre = ""
         _documento = 0

@@ -1,7 +1,9 @@
 ﻿Public Class Empresa
+    Inherits Cliente
     Private _razonSocial As String
     Private _cuit As String
     Sub New()
+        MyBase.New()
         _razonSocial = ""
         _cuit = ""
     End Sub
