@@ -7,3 +7,4 @@ E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEnti
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.dll
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.xml
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaEntidades\obj\Debug\TelefoniaEntidades.vbproj.CoreCompileInputs.cache

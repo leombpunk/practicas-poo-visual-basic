@@ -11,3 +11,4 @@ E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaTest
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaTest\obj\Debug\TelefoniaTest.exe
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaTest\obj\Debug\TelefoniaTest.xml
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaTest\obj\Debug\TelefoniaTest.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Telefonia\TelefoniaTest\obj\Debug\TelefoniaTest.vbproj.CoreCompileInputs.cache
