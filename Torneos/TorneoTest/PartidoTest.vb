@@ -2,7 +2,13 @@
 Module PartidoTest
     Sub main()
         Dim partidein As New Partido
+        Dim eq1 As New Equipo("los secos")
+        Dim eq2 As New Equipo("los menos secos")
+        Dim ref1 As New Referee("sipir rifiri", #6/24/1990#, True)
         partidein.Fecha = #06/25/2015#
+        partidein.Local = eq1
+        partidein.Visitante = eq2
+        partidein.Referee = ref1
         Console.WriteLine("Fecha: {0}", partidein.Fecha)
         Console.WriteLine("Goles local: {0}", partidein.GolesLocal)
         Console.WriteLine("Goles visitante: {0}", partidein.GolesVisitante)
@@ -52,13 +58,18 @@ Module PartidoTest
         'Console.WriteLine("minutos Goles local: {0}", partidein.MinutosGolesLocal)
         'Console.WriteLine("minutos Goles visitante: {0}", partidein.MinutosGolesVisitante)
         Console.WriteLine()
+        Console.WriteLine("***Los Goles del Partido***")
+        Console.WriteLine("-Local: {0}", partidein.Local)
         For Each elemento In partidein.MinutosGolesLocal
             Console.WriteLine("minutos Goles local: {0}", elemento)
         Next
         Console.WriteLine()
+        Console.WriteLine("-Visitante: {0}", partidein.Visitante)
         For Each elemento In partidein.MinutosGolesVisitante
             Console.WriteLine("minutos Goles visitante: {0}", elemento)
         Next
+        Console.WriteLine(vbCrLf & "***Resumen del partido***")
+        Console.WriteLine("ToString: {0}", partidein.ToString)
         Console.ReadKey()
     End Sub
 End Module

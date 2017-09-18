@@ -2,10 +2,13 @@
     Private _codigoArea As UShort
     Private _estado As String
     Private _numero As UInteger
+    'update
+    Private _equipo As Equipo
     Sub New()
         _codigoArea = 0
         _estado = ""
         _numero = 0
+        _equipo = New Equipo
     End Sub
     Sub New(codigoarea As UShort, numero As UInteger)
         Me.New()
@@ -37,6 +40,16 @@
             Return _estado
         End Get
     End Property
+    'update
+    Public Property Equipo As Equipo
+        Get
+            Return _equipo
+        End Get
+        Set(value As Equipo)
+            _equipo = value
+        End Set
+    End Property
+    'end update
     Public Sub suspender()
         _estado = "suspendida"
     End Sub

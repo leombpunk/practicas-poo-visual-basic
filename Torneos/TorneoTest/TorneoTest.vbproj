@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{67399AE1-5C47-4AC8-8EAA-33434F8A844B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>TorneoTest.JugadorTest</StartupObject>
+    <StartupObject>TorneoTest.PartidoTest</StartupObject>
     <RootNamespace>TorneoTest</RootNamespace>
     <AssemblyName>TorneoTest</AssemblyName>
     <FileAlignment>512</FileAlignment>

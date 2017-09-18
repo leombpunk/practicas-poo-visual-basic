@@ -26,4 +26,12 @@
     Public Function getAllcotorras() As List(Of Cotorra)
         Return _cotorras
     End Function
+    Public Property Loro As Loro
+        Get
+            Return _loro
+        End Get
+        Set(value As Loro)
+            _loro = value
+        End Set
+    End Property
 End Class

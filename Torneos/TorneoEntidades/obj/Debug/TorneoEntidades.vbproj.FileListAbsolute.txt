@@ -7,3 +7,4 @@ E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.dll
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.xml
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoEntidades\obj\Debug\TorneoEntidades.vbproj.CoreCompileInputs.cache

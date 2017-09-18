@@ -31,11 +31,10 @@
         End Set
     End Property
     Private Function CalcularEdad(fechanaci As Date) As Int32
-        If fechanaci.Month < Today.Month Then
-            Return DateDiff(DateInterval.Year, fechanaci, Today)
-        Else
-            Return DateDiff(DateInterval.Year, fechanaci, Today) - 1
+        If FechaNacimiento.Month < Today.Month Or (FechaNacimiento.Month = Today.Month And FechaNacimiento.Day < Today.Day) Then
+            Return DateDiff(DateInterval.Year, FechaNacimiento, Today) - 1
         End If
+        Return DateDiff(DateInterval.Year, FechaNacimiento, Today)
     End Function
     Public Overrides Function ToString() As String
         Return _nombre.ToString

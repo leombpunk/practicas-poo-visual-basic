@@ -11,3 +11,4 @@ E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoTest\obj\
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoTest\obj\Debug\TorneoTest.exe
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoTest\obj\Debug\TorneoTest.xml
 E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoTest\obj\Debug\TorneoTest.pdb
+E:\Analista de Sistemas\2do año re\Programacion II\2017\Torneos\TorneoTest\obj\Debug\TorneoTest.vbproj.CoreCompileInputs.cache

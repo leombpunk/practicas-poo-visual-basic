@@ -19,4 +19,10 @@
             _internacional = value
         End Set
     End Property
+    Public Overrides Function ToString() As String
+        If Internacional Then
+            Return "Nombre: " & Nombre & "(I)"
+        End If
+        Return "Nombre: " & Nombre
+    End Function
 End Class

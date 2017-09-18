@@ -1,8 +1,9 @@
-﻿Public Class Persona
-    'no hice modificaciones en el test (PersonaTest), mala mia
+﻿Public MustInherit Class Persona
     Private _fechaNacimiento As Date
     Private _nombre As String
     Sub New()
+        'otra opcion
+        'Me.New(Nothing, "")
         _fechaNacimiento = Nothing
         _nombre = ""
     End Sub
@@ -51,5 +52,8 @@
     End Function
     Private Function ValidoLongiString(maximocaracteres As Int32, elestring As String) As Boolean
         Return If(elestring.Length <= maximocaracteres And elestring.Length > 0, True, False)
+    End Function
+    Public Overrides Function ToString() As String
+        Return "Nombre: " & Nombre
     End Function
 End Class
