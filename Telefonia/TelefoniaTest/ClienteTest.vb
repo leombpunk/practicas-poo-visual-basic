@@ -11,15 +11,21 @@ Module ClienteTest
         cliente1.addLinea(linea1)
         cliente1.addLinea(linea2)
         cliente1.addLinea(linea3)
+        Console.WriteLine("la linea {0}-{1}, pertenece al cliente {2}", linea1.CodigoArea, linea1.Numero, linea1.Cliente.Id)
         Console.WriteLine("Muestro")
         For Each linea As Linea In cliente1.getAllLineas
-            Console.WriteLine("???, {0}-{1}", linea.CodigoArea, linea.Numero)
+            Console.WriteLine("cliente id{2}, {0}-{1}", linea.CodigoArea, linea.Numero, linea.Cliente.Id)
         Next
         Console.WriteLine("Saco la segunda linea")
         cliente1.removeLinea(linea2)
         Console.WriteLine("Muestro de nuevo")
         For Each linea As Linea In cliente1.getAllLineas
-            Console.WriteLine("???, {0}-{1}", linea.CodigoArea, linea.Numero)
+            Console.WriteLine("cliente id{2}, {0}-{1}", linea.CodigoArea, linea.Numero, linea.Cliente.Id)
+        Next
+        'Console.WriteLine("la linea {0}-{1}, pertenece al cliente {2}", linea2.CodigoArea, linea2.Numero, linea2.Cliente.Id)
+        Console.WriteLine("Muestro de nuevo2")
+        For Each linea As Linea In cliente1.getAllLineas
+            Console.WriteLine("cliente id{2}, {0}-{1}", linea.CodigoArea, linea.Numero, linea.Cliente.Id)
         Next
         Console.ReadKey()
     End Sub

@@ -1,10 +1,9 @@
 ﻿Public Class Cliente
     Private _id As Int32
-    'update
-    Private _linea As List(Of Linea)
+    Private _lineas As List(Of Linea)
     Sub New()
         _id = 0
-        _linea = New List(Of Linea)
+        _lineas = New List(Of Linea)
     End Sub
     Public Property Id As Int32
         Get
@@ -14,14 +13,15 @@
             _id = value
         End Set
     End Property
-    'update
     Public Sub addLinea(linea As Linea)
-        _linea.Add(linea)
+        linea.Cliente = Me
+        _lineas.Add(linea)
     End Sub
     Public Sub removeLinea(linea As Linea)
-        _linea.Remove(linea)
+        linea.Cliente = Nothing
+        _lineas.Remove(linea)
     End Sub
     Public Function getAllLineas() As List(Of Linea)
-        Return _linea
+        Return _lineas
     End Function
 End Class

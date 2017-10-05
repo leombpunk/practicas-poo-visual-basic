@@ -1,6 +1,7 @@
 ﻿Imports TorneoEntidades
 Module PartidoTest
     Sub main()
+        Dim torneito As New Torneo("alto torneo pe")
         Dim partidein As New Partido
         Dim eq1 As New Equipo("los secos")
         Dim eq2 As New Equipo("los menos secos")
@@ -68,6 +69,7 @@ Module PartidoTest
         For Each elemento In partidein.MinutosGolesVisitante
             Console.WriteLine("minutos Goles visitante: {0}", elemento)
         Next
+        Console.WriteLine("-TORNEO: " & torneito.Nombre)
         Console.WriteLine(vbCrLf & "***Resumen del partido***")
         Console.WriteLine("ToString: {0}", partidein.ToString)
         Console.ReadKey()

@@ -10,6 +10,7 @@
     Private _referee As Referee
     Private _local As Equipo
     Private _visitante As Equipo
+    Private _torneo As Torneo
     Sub New()
         _fecha = Nothing
         _golesLocal = 0
@@ -20,6 +21,7 @@
         _referee = New Referee
         _local = New Equipo
         _visitante = New Equipo
+
     End Sub
     Public Property Fecha As Date
         Get
@@ -52,6 +54,14 @@
         End Get
         Set(value As Equipo)
             _visitante = value
+        End Set
+    End Property
+    Public Property Torneo As Torneo
+        Get
+            Return _torneo
+        End Get
+        Friend Set(value As Torneo)
+            _torneo = value
         End Set
     End Property
     'end update

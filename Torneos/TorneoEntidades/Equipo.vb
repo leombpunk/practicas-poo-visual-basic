@@ -26,6 +26,7 @@
         Return "Nombre: " & Nombre
     End Function
     Public Sub addJugador(jugador As Jugador)
+        jugador.equipo = Me
         _jugadores.Add(jugador)
     End Sub
     Public Function getAllJugadores() As List(Of Jugador)
