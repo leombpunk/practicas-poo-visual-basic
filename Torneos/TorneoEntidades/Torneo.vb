@@ -20,6 +20,10 @@
         End Set
     End Property
     Public Sub addPartido(partido As Partido)
+        If partido.Torneo IsNot Nothing Then
+            Dim otrotorneo = partido.Torneo
+            otrotorneo.removePartido(partido)
+        End If
         partido.Torneo = Me
         _partidos.Add(partido)
     End Sub

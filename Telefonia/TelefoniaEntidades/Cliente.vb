@@ -14,6 +14,12 @@
         End Set
     End Property
     Public Sub addLinea(linea As Linea)
+        If linea.Cliente IsNot Nothing Then
+            Dim otroCliente = linea.Cliente
+            otroCliente.removeLinea(linea)
+            'o
+            'linea.Cliente.removeLinea(linea)
+        End If
         linea.Cliente = Me
         _lineas.Add(linea)
     End Sub

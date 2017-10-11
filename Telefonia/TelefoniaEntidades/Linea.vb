@@ -2,7 +2,6 @@
     Private _codigoArea As UShort
     Private _estado As String
     Private _numero As UInteger
-    'update
     Private _equipo As Equipo
     Private _cliente As Cliente
     Sub New()

@@ -26,8 +26,16 @@
         Return "Nombre: " & Nombre
     End Function
     Public Sub addJugador(jugador As Jugador)
+        If jugador.equipo IsNot Nothing Then
+            Dim otroequipo = jugador.equipo
+            otroequipo.removeJugador(jugador)
+        End If
         jugador.equipo = Me
         _jugadores.Add(jugador)
+    End Sub
+    Private Sub removeJugador(jugador As Jugador)
+        jugador.equipo = Nothing
+        _jugadores.Remove(jugador)
     End Sub
     Public Function getAllJugadores() As List(Of Jugador)
         Return _jugadores
