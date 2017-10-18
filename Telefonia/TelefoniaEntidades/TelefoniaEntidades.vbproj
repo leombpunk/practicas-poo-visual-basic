@@ -85,8 +85,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Paquete.vb" />
     <Compile Include="Persona.vb" />
     <Compile Include="Plan.vb" />
+    <Compile Include="Servicio.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

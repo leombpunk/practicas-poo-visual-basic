@@ -1,4 +1,8 @@
-﻿Public MustInherit Class Plan
+﻿Imports TelefoniaEntidades
+
+Public MustInherit Class Plan
+    Implements Servicio
+
     Private _credito As UInt32
     Private _nombre As String
     Private _precio As Single
@@ -42,10 +46,33 @@
             _precio = value
         End Set
     End Property
+
+    Private Property Servicio_Nombre As String Implements Servicio.Nombre
+        Get
+            Throw New NotImplementedException()
+        End Get
+        Set(value As String)
+            Throw New NotImplementedException()
+        End Set
+    End Property
+
+    Private Property Servicio_Precio As Single Implements Servicio.Precio
+        Get
+            Throw New NotImplementedException()
+        End Get
+        Set(value As Single)
+            Throw New NotImplementedException()
+        End Set
+    End Property
+
     Public MustOverride Function disponible() As String
     Public Overridable Sub addConsumo(valor As UInt32)
         If _consumo + valor < Credito Then
             _consumo += valor
         End If
     End Sub
+
+    Public Function getDisponible() As String Implements Servicio.getDisponible
+        Throw New NotImplementedException()
+    End Function
 End Class
