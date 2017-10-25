@@ -4,12 +4,13 @@
     Private _numero As UInteger
     Private _equipo As Equipo
     Private _cliente As Cliente
+    Private _iservicio As IServicio
     Sub New()
         _codigoArea = 0
         _estado = ""
         _numero = 0
         _equipo = New Equipo
-        _cliente = New Cliente
+        _cliente = Nothing 'New Cliente
     End Sub
     Sub New(codigoarea As UShort, numero As UInteger)
         Me.New()
@@ -56,6 +57,14 @@
         End Get
         Friend Set(value As Cliente)
             _cliente = value
+        End Set
+    End Property
+    Public Property IServicio As IServicio
+        Get
+            Return _iservicio
+        End Get
+        Set(value As IServicio)
+            _iservicio = value
         End Set
     End Property
     'end update

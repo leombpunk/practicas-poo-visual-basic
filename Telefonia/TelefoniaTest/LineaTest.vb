@@ -1,6 +1,6 @@
 ﻿Imports TelefoniaEntidades
 Module LineaTest
-    Sub main()
+    Sub Main()
         Dim nlinea As New Linea
         nlinea.CodigoArea = 500
         nlinea.Numero = 99999

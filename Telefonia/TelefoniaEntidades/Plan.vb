@@ -1,8 +1,6 @@
 ﻿Imports TelefoniaEntidades
-
 Public MustInherit Class Plan
-    Implements Servicio
-
+    Implements IServicio
     Private _credito As UInt32
     Private _nombre As String
     Private _precio As Single
@@ -30,7 +28,23 @@ Public MustInherit Class Plan
             'End If
         End Set
     End Property
-    Public Property Nombre As String
+    'Public Property Nombre As String
+    '    Get
+    '        Return _nombre
+    '    End Get
+    '    Set(value As String)
+    '        _nombre = value
+    '    End Set
+    'End Property
+    'Public Property Precio As Single
+    '    Get
+    '        Return _precio
+    '    End Get
+    '    Set(value As Single)
+    '        _precio = value
+    '    End Set
+    'End Property
+    Public Property Nombre As String Implements IServicio.Nombre
         Get
             Return _nombre
         End Get
@@ -38,7 +52,8 @@ Public MustInherit Class Plan
             _nombre = value
         End Set
     End Property
-    Public Property Precio As Single
+
+    Public Property Precio As Single Implements IServicio.Precio
         Get
             Return _precio
         End Get
@@ -47,32 +62,14 @@ Public MustInherit Class Plan
         End Set
     End Property
 
-    Private Property Servicio_Nombre As String Implements Servicio.Nombre
-        Get
-            Throw New NotImplementedException()
-        End Get
-        Set(value As String)
-            Throw New NotImplementedException()
-        End Set
-    End Property
-
-    Private Property Servicio_Precio As Single Implements Servicio.Precio
-        Get
-            Throw New NotImplementedException()
-        End Get
-        Set(value As Single)
-            Throw New NotImplementedException()
-        End Set
-    End Property
-
-    Public MustOverride Function disponible() As String
+    'Public MustOverride Function disponible() As String
     Public Overridable Sub addConsumo(valor As UInt32)
         If _consumo + valor < Credito Then
             _consumo += valor
         End If
     End Sub
 
-    Public Function getDisponible() As String Implements Servicio.getDisponible
-        Throw New NotImplementedException()
+    Public Overridable Function getDisponible() As String Implements IServicio.getDisponible
+        Return "coming soon"
     End Function
 End Class

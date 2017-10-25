@@ -7,10 +7,12 @@
         MyBase.New(credito, nombre, precio)
     End Sub
     Public Overrides Function ToString() As String
-        Return MyBase.Nombre
+        Return Nombre & "-" & getDisponible()
     End Function
-
-    Public Overrides Function disponible() As String
-        Return Me.Credito - _consumo & " mensajes"
+    Public Overrides Function getDisponible() As String
+        Return Credito - _consumo & " mensajes"
     End Function
+    'Public Overrides Function disponible() As String
+    '    Return Me.Credito - _consumo & " mensajes"
+    'End Function
 End Class
