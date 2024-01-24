@@ -1,9 +1,0 @@
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\bin\Debug\FigurasEntidades.dll
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\bin\Debug\FigurasEntidades.pdb
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\bin\Debug\FigurasEntidades.xml
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\obj\Debug\FigurasEntidades.vbprojResolveAssemblyReference.cache
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\obj\Debug\FigurasEntidades.Resources.resources
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\obj\Debug\FigurasEntidades.vbproj.GenerateResource.Cache
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\obj\Debug\FigurasEntidades.dll
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\obj\Debug\FigurasEntidades.xml
-E:\Analista de Sistemas\2do año re\Programacion II\2017\Figuras Geometricas\FigurasEntidades\obj\Debug\FigurasEntidades.pdb
